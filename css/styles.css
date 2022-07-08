@@ -3284,11 +3284,11 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-header__menu-toggle {
     display: none;
-    font-family: var(--font-1);
+    font-family: 'Bellina Bold';
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .4rem;
-    background-color: var(--color-2);
+    background-color: #567e49;
     color: white;
     width: var(--header-height);
     height: var(--header-height);
@@ -3370,7 +3370,7 @@ input[type="button"].btn--primary:focus {
         padding: 0;
     }
     .s-header__nav-wrap, .s-header__nav {
-        background-color: #050505;
+        background-color: #dbe4cb;
     }
     .s-header__nav-wrap {
         -webkit-transform: scaleY(0);
@@ -3415,7 +3415,7 @@ input[type="button"].btn--primary:focus {
         content: counter(ctr, decimal-leading-zero);
         counter-increment: ctr;
         font-size: var(--text-xs);
-        color: rgba(255, 255, 255, 0.18);
+        color: #fff;
         position: absolute;
         top: var(--vspace-0_5);
         left: 0;
